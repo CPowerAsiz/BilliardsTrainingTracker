@@ -1,0 +1,93 @@
+---
+alwaysApply: true
+---
+
+# Android Compose Project Rules
+
+## General
+
+* Use Kotlin only
+* Use Jetpack Compose with Material3
+* Follow MVVM architecture
+* Use StateFlow for UI state
+* Avoid LiveData unless explicitly requested
+* Keep composables stateless whenever possible
+* Separate UI logic from business logic
+* Keep files small and modular
+
+---
+
+## UI Rules
+
+* Use Material3 components
+* Support dark mode
+* Avoid hardcoded colors
+* Use MaterialTheme.colorScheme
+* Use Modifier.fillMaxWidth() instead of fixed widths when possible
+* Keep composables reusable
+* Prefer simple layouts over deeply nested layouts
+
+---
+
+## Compose Rules
+
+* Avoid putting business logic inside composables
+* Use remember only for UI state
+* Use collectAsState() for StateFlow
+* Use immutable UI state data classes
+* Keep recomposition efficient
+* Avoid unnecessary LaunchedEffect usage
+
+---
+
+## ViewModel Rules
+
+* All screen state should come from ViewModel
+* Use MutableStateFlow internally
+* Expose StateFlow externally
+* Do not expose mutable state to UI
+* Handle validation inside ViewModel
+
+---
+
+## Navigation Rules
+
+* Use Navigation Compose
+* Keep routes centralized
+* Avoid passing large objects through navigation
+* Use IDs instead of serialized objects
+
+---
+
+## Room Rules
+
+* Use Room for local persistence
+* Use suspend functions in DAO
+* Keep database operations outside composables
+* Repository handles data source coordination
+
+---
+
+## Code Style
+
+* Use clear naming
+* Avoid overly abstract architecture
+* Prefer readability over cleverness
+* Keep beginner-friendly structure
+* Add comments only when necessary
+
+---
+
+## Project Goal
+
+This project is a portfolio-ready modern Android application focused on:
+
+* Jetpack Compose
+* MVVM
+* StateFlow
+* Room
+* Material3
+* Clean and maintainable architecture
+
+Avoid overengineering.
+Prioritize simplicity, readability, and production-like structure.

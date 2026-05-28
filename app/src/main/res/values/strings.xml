@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Billiards Training Tracker</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">首頁</string>
+    <string name="nav_practice">練習</string>
+    <string name="nav_records">紀錄</string>
+    <string name="nav_settings">設定</string>
+
+    <!-- Practice screen -->
+    <string name="practice_title">新增練習紀錄</string>
+    <string name="practice_type_label">練習類型</string>
+    <string name="practice_total_balls_label">總球數</string>
+    <string name="practice_success_balls_label">成功球數</string>
+    <string name="practice_difficulty_label">難度</string>
+    <string name="practice_notes_label">備註</string>
+    <string name="practice_notes_placeholder">今天拉桿穩定度不夠，出桿太急</string>
+    <string name="practice_datetime_label">日期時間</string>
+    <string name="practice_save_record">儲存紀錄</string>
+    <string name="practice_error_total_balls">請輸入大於 0 的總球數</string>
+    <string name="practice_error_success_balls">請輸入成功球數</string>
+    <string name="practice_error_success_exceeds_total">成功球數不可大於總球數</string>
+
+    <!-- Records screen -->
+    <string name="records_title">練習紀錄</string>
+    <string name="records_empty">尚無練習紀錄，前往「練習」新增一筆吧</string>
+    <string name="records_item_success_rate">成功率 %1$d%%</string>
+    <string name="records_item_balls">%1$d 顆 / 成功 %2$d 顆</string>
+    <string name="records_item_difficulty">難度：%1$s</string>
+
+    <!-- Record detail screen -->
+    <string name="detail_title">練習詳情</string>
+    <string name="detail_back">返回</string>
+    <string name="detail_success_rate_label">成功率</string>
+    <string name="detail_success_rate_value">%1$d%%</string>
+    <string name="detail_total_balls">總球數</string>
+    <string name="detail_success_balls">成功球數</string>
+    <string name="detail_failed_balls">失敗球數</string>
+    <string name="detail_difficulty">難度</string>
+    <string name="detail_date">日期</string>
+    <string name="detail_notes_label">備註</string>
+    <string name="detail_notes_empty">無備註</string>
+    <string name="detail_delete_record">刪除紀錄</string>
+    <string name="detail_delete_dialog_title">刪除紀錄</string>
+    <string name="detail_delete_dialog_message">確定要刪除這筆練習紀錄嗎？此操作無法復原。</string>
+    <string name="detail_delete_confirm">刪除</string>
+    <string name="detail_delete_cancel">取消</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">設定</string>
+    <string name="settings_appearance_title">外觀</string>
+    <string name="settings_dark_mode">深色模式</string>
+    <string name="settings_data_title">資料管理</string>
+    <string name="settings_clear_all_records">清除所有紀錄</string>
+    <string name="settings_clear_data_dialog_title">清除所有紀錄</string>
+    <string name="settings_clear_data_dialog_message">確定要刪除所有練習紀錄嗎？此操作無法復原。</string>
+    <string name="settings_clear_data_confirm">清除</string>
+    <string name="settings_clear_data_cancel">取消</string>
+    <string name="settings_about_title">關於 App</string>
+    <string name="settings_version">Version %1$s</string>
+
+    <!-- Home screen -->
+    <string name="home_app_title">Billiards Training Tracker</string>
+    <string name="home_today_practice_title">今日練習</string>
+    <string name="home_today_practice_not_completed">尚未完成</string>
+    <string name="home_today_practice_completed">已完成</string>
+    <string name="home_weekly_stats_title">本週統計</string>
+    <string name="home_weekly_practice_count">練習次數：%1$d 次</string>
+    <string name="home_weekly_average_success_rate">平均成功率：%1$d%%</string>
+    <string name="home_recent_practice_title">最近練習</string>
+    <string name="home_recent_practice_detail">%1$s / %2$d 顆 / 成功 %3$d 顆</string>
+    <string name="home_no_recent_practice">尚無練習紀錄</string>
+    <string name="home_weakest_item_title">弱點項目</string>
+    <string name="home_weakest_item_detail">%1$s / 成功率 %2$d%%</string>
+    <string name="home_no_weakest_item">尚無足夠資料</string>
+    <string name="home_start_practice">開始練習</string>
+</resources>
